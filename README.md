@@ -33,4 +33,4 @@ model: efficientnet_b0
 
 image augmentation: Traditional image augmentation + cutout + mixup + label smoothing
 
- **Please view the detailed report [iwildcam_2019.pdf](iwildcam_2019.pdf) **
+Please view the detailed report [iwildcam_2019.pdf](iwildcam_2019.pdf) 
