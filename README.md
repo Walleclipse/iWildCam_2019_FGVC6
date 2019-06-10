@@ -31,6 +31,6 @@ I got the best single model predicion result (f1=0.224 in private LB) with follo
 
 model: efficientnet_b0
 
-image augmentation: Traditional image augmentation + cutout + mixup + label smoothing
+image augmentation: traditional image augmentation + CLAHE + gray scale + cutout + mixup + label smoothing
 
 Please view the detailed report [iwildcam_2019.pdf](iwildcam_2019.pdf) 
