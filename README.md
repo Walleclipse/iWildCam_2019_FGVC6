@@ -10,7 +10,7 @@ Thanks to my team members!
 ### About the Code
 
 #### 1. Download the Data
-Download the competition data accoring to [here](data/README.md)
+Download the competition data according to [here](data/README.md)
 
 #### 2. Detect and Crop the Image 
 ```
