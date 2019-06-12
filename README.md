@@ -9,8 +9,13 @@ Thanks to my team members!
 
 ### About the Code
 
-#### 1. Download the Data
+#### 1. Prepare Data
 Download the competition data according to [here](data/README.md)
+
+After downloading, record the image-file in CSV format.
+```
+python prep_data.py
+```
 
 #### 2. Detect and Crop the Image 
 ```
