@@ -36,7 +36,7 @@ python infer.py
 
 I got the best single model predicion result (f1=0.224 in private LB) with following configurations.
 
-model: efficientnet_b0
+model: efficientnet_b0 (imagenet pretrained)
 
 image augmentation: traditional image augmentation + CLAHE + gray scale + cutout + mixup + label smoothing
 
