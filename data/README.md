@@ -15,7 +15,7 @@
 3. #### Annontation 
    Download Annotation for train and test set from [here](https://lilablobssc.blob.core.windows.net/iwildcam2019/iWildCam_2019_Annotations.tar.gz) and unzip it to folder "iWildCam_2019_Annotations"
 
-4. #### Camera Trap Animals detection Result
+4. #### Camera Trap Animals Detection Result
    Download detection bbox results from [here](https://lilablobssc.blob.core.windows.net/iwildcam2019/Detection_Results.tar.gz) and unzip it to folder "bbox/Detection_Results/"
    
    In my method, I first run object detection and crop the bounding box for classification. If you want to classify objects directly, you don't need to download this file.  
