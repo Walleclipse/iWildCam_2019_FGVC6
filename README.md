@@ -40,4 +40,4 @@ model: efficientnet_b0 (imagenet pretrained)
 
 image augmentation: traditional image augmentation + CLAHE + gray scale + cutout + mixup + label smoothing
 
-Please view the detailed report [iwildcam_2019_report.pdf](iwildcam_2019_report.pdf) 
+Please view the detailed report [iwildcam_2019_report.pdf](iwildcam_2019_report.pdf) or [Efficient Method for Categorize Animals in the Wild](https://arxiv.org/ftp/arxiv/papers/1907/1907.13037.pdf)
