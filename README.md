@@ -12,7 +12,7 @@ Thanks to my team members!
 #### 1. Prepare Data
 Download the competition data according to [here](data/README.md)
 
-After downloading, record the image-file in CSV format.
+After downloading, save the image-file name as CSV format.
 ```
 python prep_data.py
 ```
@@ -21,7 +21,7 @@ python prep_data.py
 ```
 python detect_crop_image.py
 ```
-In my method, I first run object detection and crop the bounding box for classification. 
+In my method, I first run object detection and crop the bounding box, then use the cropped image for classification. 
 #### 3. Train the Model
 ```
 python train_model.py
@@ -34,7 +34,7 @@ python infer.py
 
 ### About the Method
 
-I got the best single model predicion result (f1=0.224 in private LB) with following configurations.
+I got the best single model prediction result (f1=0.224 in private LB) with the following configuration:
 
 model: efficientnet_b0 (imagenet pretrained)
 
