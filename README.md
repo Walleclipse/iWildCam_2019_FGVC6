@@ -3,6 +3,7 @@ Top 3% (7/336)  solution for [iWildCam 2019](https://www.kaggle.com/c/iwildcam-2
 
 Thanks to my team members!
 
+Please view the detailed report [iwildcam_2019_report.pdf](iwildcam_2019_report.pdf) or [Efficient Method for Categorize Animals in the Wild](https://arxiv.org/ftp/arxiv/papers/1907/1907.13037.pdf)
 ### Requirements
 * Python 3.6
 * pytorch 1.1.0
@@ -39,5 +40,3 @@ I got the best single model prediction result (f1=0.224 in private LB) with the 
 model: efficientnet_b0 (imagenet pretrained)
 
 image augmentation: traditional image augmentation + CLAHE + gray scale + cutout + mixup + label smoothing
-
-Please view the detailed report [iwildcam_2019_report.pdf](iwildcam_2019_report.pdf) or [Efficient Method for Categorize Animals in the Wild](https://arxiv.org/ftp/arxiv/papers/1907/1907.13037.pdf)
